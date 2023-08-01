@@ -4,38 +4,38 @@ const data = [
   {
     img: './src/img/speaker_01 1.png',
     title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    subTitle: 'Computer Science Professor at Harvard Law School',
+    info: 'Yochai Benkler is an expert in commons-based production and published his seminal book, The Wealth of Networks, in 2006.',
   },
   {
     img: './src/img/speacker_3.png',
-    title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    title: 'Kilnam Chon',
+    subTitle: 'Computer Science Professor at Harvard Law School',
+    info: 'Kilnam Chon is a renowned computer scientist and one of the pioneers of the internet in South Korea.',
   },
   {
     img: './src/img/speake_2.png',
-    title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    title: 'SohYeong Noh',
+    subTitle: 'Computer Science Professor at Harvard Law School',
+    info: 'SohYeong Noh is an esteemed computer science professor at Harvard Law School. Her research focuses on artificial intelligence, data privacy, and human-computer interaction.',
   },
   {
     img: './src/img/speaker_4.png',
-    title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    title: 'Julia Leda',
+    subTitle: 'Computer Science Professor at Harvard Law School',
+    info: 'Julia Leda is a respected computer science professor at Harvard Law School. She specializes in software engineering, algorithm design, and computational theory.',
   },
   {
     img: './src/img/speaker_5.png',
-    title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    title: 'Lila Tretikov',
+    subTitle: 'Software Engineer and Open Source Advocate',
+    info: 'Lila Tretikov is a highly accomplished software engineer and advocate for open-source software. She served as the Executive Director of the Wikimedia Foundation, where she played a pivotal role in expanding the reach of Wikipedia and other Wikimedia projects. ',
   },
   {
     img: './src/img/speaker_6.png',
-    title: 'Yochai Benkler',
-    subTitile: 'Profesor de Estudios Legales Empresariales en la Facultad de Derecho de Harvard',
-    info: 'Benkler estudia la producción basada en bienes comunes y publicó su libro seminal, The Wealth of Networks, en 2006',
+    title: 'Ryan Merkley',
+    subTitle: 'Technology Policy Expert and Educator',
+    info: 'Ryan Merkley is a renowned expert in technology policy and education. As the former CEO of Creative Commons, he worked to promote the use and sharing of creative works through open licenses.',
   },
 
 ];
@@ -43,7 +43,7 @@ const data = [
 function componentDynamic(data) {
   return data.map((orador) => {
     const {
-      img, title, subTitile, info,
+      img, title, subTitle, info,
     } = orador;
     return `
       <div class="FeaturePeopleSpeacker">
@@ -53,7 +53,7 @@ function componentDynamic(data) {
         <div class="FeatureInfo">
           <div class="FeatureTitle">
             <h2>${title}</h2>
-            <p>${subTitile}</p>
+            <p>${subTitle}</p>
           </div>
           <div class="FeatureP">
             <p>${info}</p>
