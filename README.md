@@ -25,10 +25,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Portafolio] <a name="about-project"></a>
+# 📖 [SkillMentor] <a name="about-project"></a>
 
 
-**Portafolio** is my web page to show all my project.
+**SkillMentor**
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See Live Demo](https://ammaralalis.github.io/Portafolio-Codehand-Solution.github.io/)
+- [See Live Demo](https://ammaralalis.github.io/Capstone-project_CohetePage.github.oi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +124,7 @@ Run npx eslint . on the root of your directory of your project.
 
 ### Deployment
 
-Github page deployment. live vertion: https://ammaralalis.github.io/Portafolio-Codehand-Solution.github.io/
+Github page deployment. live vertion: https://ammaralalis.github.io/Capstone-project_CohetePage.github.oi/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,10 +149,6 @@ Github page deployment. live vertion: https://ammaralalis.github.io/Portafolio-C
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Name: Abdul Salam https://github.com/AbdulSalamAbro colaborate on Form-section-pair-programing branch <br>
-Name: wilfried muyisa https://github.com/WilfriedM01 colaborate on mobile-menu branch
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,6 +163,7 @@ If you like this project you can download it from https://github.com/WalidAmmarA
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
     Thank Microverse team for the opportunity to be a professional coder.
+    Original design idea by Cindy Shin in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
