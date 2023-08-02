@@ -33,15 +33,28 @@ function componetCourses(CoursesData) {
   return CoursesData.map((courses) => {
     const { img, title, info } = courses;
 
+    let titleStyle = '';
+    if (title === 'HTML') {
+      titleStyle = 'color: #E44D26; ';
+    } else if (title === 'CSS') {
+      titleStyle = 'color: #32A9DC; ';
+    } else if (title === 'JavaScript') {
+      titleStyle = 'color: #F3E11D; ';
+    } else if (title === 'GIT') {
+      titleStyle = 'color: #F05033; ';
+    } else if (title === 'RUBY') {
+      titleStyle = 'color: #EF0E14; ';
+    }
+
     return `
-    <div class="boxCourses">
-        <div class="boxCoursesInside">
-            <img src="${img}" alt="">
-            <h2>${title}</h2>
-            <P>${info}</P>
+        <div class="boxCourses">
+            <div class="boxCoursesInside">
+                <img src="${img}" alt="">
+                <h2 style="${titleStyle}">${title}</h2>
+                <p>${info}</p>
+            </div>
         </div>
-    </div>
-    `;
+        `;
   }).join('');
 }
 
