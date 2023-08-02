@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300&display=swap');
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   body {
     padding: 0;
     margin: 0;
@@ -22,6 +22,7 @@
     height: 75px;
     position: fixed;
     top: 0;
+    z-index: 10;
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -56,7 +57,12 @@
     display: none;
   }
 
-  .hamburgerButton img {
+  .hamburgerButton {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .hamburgerButtonImg {
     width: 1.5rem;
     height: 1.5rem;
     cursor: pointer;
@@ -71,6 +77,7 @@
   .mainInfo {
     width: 90%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2rem;
     margin: 3rem 0;
@@ -94,7 +101,6 @@
     font-size: 2.5rem;
     margin: 0;
     padding: 0;
-    font-weight: 800;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(../icon/titlebackground.jpeg);
@@ -140,6 +146,58 @@
     margin: 0;
     padding: 0;
     color: #868686;
+  }
+
+  /* ========================================= */
+  .menu {
+    width: 100%;
+    background-color: rgba(37, 47, 137, 0.08);
+    backdrop-filter: blur(500px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .menuLogo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 1.6rem;
+  }
+
+  .menuLogo i {
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+    color: #2f3238;
+  }
+
+  .menuLinks {
+    width: auto;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 3rem 0 0 0;
+  }
+
+  .menuLinks li {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .menuLinks a {
+    font-weight: 700;
+    color: #333436;
+    width: 100%;
+    font-size: 2.5rem;
+    text-decoration: none;
   }
 
 
@@ -438,6 +496,15 @@
     line-height: 20px;
     color: #353232;
   }
+
+  .fa-solid {
+    cursor: pointer;
+  }
+
+  .boxCourses:hover {
+    background-color: #5f5f5f8e;
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -462,6 +529,7 @@
     height: 75px;
     position: fixed;
     top: 0;
+    z-index: 10;
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -894,6 +962,18 @@
     font-weight: 700;
     line-height: 20px;
     color: #353232;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .boxCourses:hover {
+    background-color: #5f5f5f8e;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    transition: 0.1s ease;
   }
 }
 
@@ -1355,5 +1435,18 @@
 
   .SeeCourses h3:hover {
     color: #ff5438;
+  }
+
+  .boxCourses:hover {
+    background-color: #5f5f5f8e;
+    border-radius: 5px;
+    width: 205px;
+    height: 250px;
+    transition: 0.1s ease;
+  }
+
+  /* display none */
+  .menu {
+    display: none;
   }
 }
