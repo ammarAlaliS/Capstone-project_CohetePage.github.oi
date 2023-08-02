@@ -85,7 +85,6 @@
 
   .title {
     height: auto;
-    text-align: center;
   }
 
   .title h2 {
@@ -112,7 +111,6 @@
     height: auto;
     border: 4px solid #fff;
     display: flex;
-    align-items: center;
   }
 
   .paragraph p {
@@ -151,14 +149,16 @@
   /* ========================================= */
   .menu {
     width: 100%;
-    background-color: rgba(37, 47, 137, 0.08);
-    backdrop-filter: blur(500px);
+    background-color: #e8e9f0;
     position: fixed;
     top: 0;
     bottom: 0;
     z-index: 12;
     display: flex;
     flex-direction: column;
+  }
+
+  .menuTwo {
     display: none;
   }
 
@@ -410,6 +410,10 @@
 
   /* partners */
   .partners {
+    display: none;
+  }
+
+  .partnersTwo {
     width: 100%;
     height: auto;
     display: flex;
@@ -459,6 +463,10 @@
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
+  }
+
+  .footerTwo {
+    display: none;
   }
 
   .footerBox {
@@ -964,7 +972,7 @@
     color: #353232;
   }
 
-  .menu {
+  .menuTwo {
     display: none;
   }
 
@@ -1446,7 +1454,7 @@
   }
 
   /* display none */
-  .menu {
+  .menuTwo {
     display: none;
   }
 }
