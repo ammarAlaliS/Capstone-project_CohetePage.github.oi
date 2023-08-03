@@ -69,6 +69,13 @@ Start your transformation now! Happy coding with SkillMentor!
     <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">Css</a></li>
   </ul>
 </details>
+<details>
+<summary>Css</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">JavaScript</a></li>
+  </ul>
+</details>
+
 
 
 ### Key Features <a name="key-features"></a>
