@@ -29,6 +29,10 @@
     background-color: #fff;
   }
 
+  .navInformation {
+    display: none;
+  }
+
   .navbarContainer {
     width: 90%;
     display: flex;
@@ -468,6 +472,36 @@
     background-color: #fff;
   }
 
+  /* navInfo */
+
+  .navInformation {
+    width: 100%;
+    height: 2.4rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3e3e3e;
+  }
+
+  .navInfo {
+    width: 70.2%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .navInfo li {
+    display: flex;
+    align-items: center;
+  }
+
+  /* ======== */
+
   .navbarContainer {
     width: 90%;
     display: flex;
@@ -522,11 +556,50 @@
     background-color: #f7f7f8;
   }
 
+  /* navInfo */
+
+  .navInformation {
+    width: 100%;
+    height: 2.4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #3e3e3e;
+  }
+
+  .navInfo {
+    width: 70%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .navInfo li {
+    display: flex;
+    align-items: center;
+  }
+
+  .navInfo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  /* ======== */
+
   nav {
     width: 100%;
     height: 75px;
     position: fixed;
-    top: 0;
+    top: 2.4rem;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -571,10 +644,9 @@
 
   .button a {
     margin-left: 1rem;
-    padding: 0.8rem;
-    border-radius: 5px;
+    padding: 0.7rem;
+    border: 2px solid #ec4327;
     color: #ec4327;
-    flex-wrap: nowrap;
   }
 
   /* ========================================== */
