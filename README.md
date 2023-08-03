@@ -70,7 +70,7 @@ Start your transformation now! Happy coding with SkillMentor!
   </ul>
 </details>
 <details>
-<summary>Css</summary>
+<summary>JavaScript</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
